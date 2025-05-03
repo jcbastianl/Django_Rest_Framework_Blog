@@ -42,10 +42,11 @@ DJANGO_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
 ]
 
 PROJECT_APPS = [
-    # Add your project-specific apps here
+    'apps.blog'
 ]
 
 THIRD_PARTY_APPS = [    
